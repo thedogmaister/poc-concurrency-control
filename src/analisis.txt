@@ -1,0 +1,13 @@
+                   PROCESSING
+                    =============================================>
+                    apto <= [{}] SUCCED
+                    <========================================
+                    {resp: {ubigeo:null, fechaNacimiento:'', gradoInstruccion:'' }, 
+                    calculated: { requiredeUbige:true} }
+   -------------------                 
+
+      error     => lima
+
+
+      {ubigeo:nul, fechaNacimiento:'10-02-1999'}
+       {name:'JUAN'  =>  name:'J**N' } 

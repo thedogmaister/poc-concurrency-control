@@ -1,0 +1,67 @@
+draft={
+  "form": {
+    "clientDocumentNumber": "sdfdf",
+    "fecha": "",
+    "type":"B|F",
+    "lineas": {
+      "asdsd": {
+        "productoId": "dfdfdf",
+        "cantidad": 4
+      },
+      "asd3sd": {
+        "productoId": "dfdfdf",
+        "cantidad": 4
+      }
+    }
+  },
+  "customer":{
+      "params": "sdfdf",
+      "status":"PROCESSING | SUCCEED |FAILED",
+      "data": {
+         "id":"sdsdfs",
+         "name":"ffffff",
+         "direccion":"dfdfdfdf",
+         "email":"ffff@dfds.com"
+      }
+  },
+ "lineas":{
+    "asdsd":{
+        "product":{
+            "params": "productId",
+            "status":"PROCESSING | SUCCEED |FAILED",
+            "data": {
+               "id":"id",
+               "name":"productName",
+               "price":200
+            },
+            "error":"dff",
+        },
+    }
+ }
+}  
+
+// MEMORIA
+
+//  GUARDAR
+//POST {
+//     "clientDocumentNumber": "sdfdf",
+//     "fecha": "",
+//     "lineas": {
+//       "asdsd": {
+//         "productoId": "dfdfdf",
+//         "cantidad": 4
+//       },
+//       "asd3sd": {
+//         "productoId": "dfdfdf",
+//         "cantidad": 4
+//       }
+//     }
+//   }
+
+// GUARDAR  cmdGuardar= id{}
+
+invoide  {
+  clientId:'sdsdfs',
+  lineas: [{productId:'productId',cantidad:4}]
+}  => POSTGRESS
+
